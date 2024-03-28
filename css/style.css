@@ -174,8 +174,9 @@ header {
 }
 
 #subscribe {
-  width:20px;
+  width: 15px;
   display:inline-block;
+  outline: 2px solid #0C0DF0;
 }
 
 

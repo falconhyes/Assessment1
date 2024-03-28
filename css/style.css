@@ -1,0 +1,209 @@
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  color: black;
+}
+
+#css-approved {
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+
+
+/* 2. Navigation Bar for index.html */
+header {
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid hsl(240, 90%, 49%);
+  background:midnightblue;
+}
+
+/* Logo */
+#logo {
+  background:#0C0DF0;
+  color: #F5D026;
+  width: 75px;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #F5D026;
+  font-size: 16px;
+}
+
+.navbar {
+  overflow: auto;
+  background:#0C0DF0;
+  height: 100px;
+}
+
+/* List and Items */
+.navbar ul {
+  text-align: left;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #F5D026;
+  background:#0C0DF0;
+  padding: 20px 30px;
+  border: 1px solid #0C0DF0;
+  line-height: 3;
+}
+
+.navbar ul li a:hover, 
+.navbar ul li a:focus {
+  background-color: #232376;
+}
+
+.navbar ul li a:visited {
+  color: #F5D026;
+}
+
+#active {
+  background-color: black;
+}
+/* End Navbar */
+
+/* Main Page */
+.index {
+  overflow: auto;
+  margin: 10px;
+}
+
+.index p {
+  margin-bottom: 10px;
+}
+
+
+/* 3. Image Gallery for services.html */
+
+.gallery {
+  font-size: 18px;
+}
+
+.gallery h1 {
+  text-align: center;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+.gallery ul {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #0C0DF0;
+  margin:auto;
+}
+
+.gallery ul li {
+  display:inline-block;
+  padding: 10px;
+  border: 2px solid #0C0DF0;
+  margin-bottom: 10px;
+}
+
+.gallery ul li img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gallery ul li img:hover,
+.gallery ul li img:focus {
+  border: 1px solid red;
+}
+
+.gallery p {
+  max-width: 180px;
+  height: 70px;
+  overflow: auto;
+}
+
+
+/* 4. Form for contact.html */
+
+.contact {
+  font-size: 14px;
+  position:relative;
+}
+
+.contact h1 {
+  font-size: 18px;
+}
+
+.contact form {
+  background: #F5D026;
+  width: 500px;
+  padding: 10px;
+  margin:auto;
+}
+
+.contact form input,
+.contact form select,
+.contact form textarea,
+.contact form button {
+  width: 100%;
+  border: 2px solid #0C0DF0;
+  margin-bottom: 15px;
+}
+
+.contact form input, 
+.contact form select,
+.contact form button {
+  padding: 5px 0px 5px 0px;
+}
+
+.contact form textarea {
+  min-width: 100%;
+  height: 100px;
+}
+
+#subscribe {
+  width:20px;
+  display:inline-block;
+}
+
+
+/* 5. Article for about.html */
+
+.article article {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #BDCACD;
+  padding: 15px 80px 50px 80px;
+}
+
+.article article h1 {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.article article h2 {
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+
+.article article h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.article article p {
+  padding-bottom: 15px;
+}
